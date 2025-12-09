@@ -1,0 +1,20 @@
+{
+  "servers": {
+        "gh-support": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/x/github_support_docs_search"
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ],
+            "type": "stdio"
+        },
+        "microsoftdocs/mcp": {
+            "type": "http",
+            "url": "https://learn.microsoft.com/api/mcp",
+        }
+  }
+}
